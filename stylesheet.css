@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'nickainley';
+    src: url('Nickainley/nickainley-normal-webfont.eot');
+    src: url('Nickainley/nickainley-normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Nickainley/nickainley-normal-webfont.woff2') format('woff2'),
+         url('Nickainley/nickainley-normal-webfont.woff') format('woff'),
+         url('Nickainley/nickainley-normal-webfont.ttf') format('truetype'),
+         url('Nickainley/nickainley-normal-webfont.svg#nickainleynormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'old_standard_tt';
+    src: url('webfontkit/oldstandard-regular-webfont.eot');
+    src: url('webfontkit/oldstandard-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/oldstandard-regular-webfont.woff2') format('woff2'),
+         url('webfontkit/oldstandard-regular-webfont.woff') format('woff'),
+         url('webfontkit/oldstandard-regular-webfont.ttf') format('truetype'),
+         url('webfontkit/oldstandard-regular-webfont.svg#old_standard_ttregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    font-family: 'old_standard_tt';
+    text-align: center;
+
+}
+body {
+    display: inline-block;
+    width: 1470px;
+    background-image: url(img/5a28d59fa8b923.4378667915126255676911.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50%;
+}
+.wrapper {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+p, address, blockquote {
+    text-align: justify;
+    padding: 0 15px;
+}
+q, address, blockquote, cite {
+    font-family: 'nickainley';
+    font-size: 22px;
+    padding: 0 15px;
+}
+h1, .text_aligh  {
+    text-align: center;
+    font-family: 'nickainley';
+    font-size: 40px;
+    margin: 0;
+}
+.style_img {
+    width: 150px;
+}
+.style2_img {
+    max-width: 20%;
+    float: right;
+    margin: 25px 25px;
+    outline: 3px outset rgb(194, 212, 128);
+    outline-offset: 10px;
+}
+.style3_img {
+    float:left;
+    margin: 20px 25px;
+    width: 20%;
+    outline: 3px outset  rgb(194, 212, 128);
+    outline-offset: 10px;
+}
+hr {
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgba(255,255,0,1),rgb(194, 212, 128), rgba(255,255,0,1));
+    background-image:     -ms-linear-gradient(left, rgba(255,255,0,1), rgb(194, 212, 128), rgba(255,255,0,1));
+    background-image:    -moz-linear-gradient(left, rgba(255,255,0,1), rgb(194, 212, 128), rgba(255,255,0,1));
+    background-image:      -o-linear-gradient(left, rgba(255,255,0,1), rgb(194, 212, 128), rgba(255,255,0,1));
+}
+.pad, h1 {
+    padding-top: 15px;
+}
+blockquote {
+    font-style: italic;
+}
+
+ 
